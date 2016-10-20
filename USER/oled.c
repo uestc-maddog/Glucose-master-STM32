@@ -59,7 +59,7 @@ void clear_page(unsigned char page)
 }
 
 //初始化OLED模块
-olp;void initial_oled()
+void initial_oled()
 {
   	RST_LOW();        	//低电平复位
   	delay(100);

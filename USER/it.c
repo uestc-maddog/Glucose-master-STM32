@@ -22,10 +22,10 @@ void IT_Config()
 
 }
 //WFI指令，进入待机模式
-//__asm void wfi()
-//{
-//   WFI;
-//}
+__asm void wfi()
+{
+   WFI;
+}
 //设置各种待机模式前的准备条件
 void go_suspend()
 {
